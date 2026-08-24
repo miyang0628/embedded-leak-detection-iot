@@ -1,0 +1,4 @@
+strategy,tco_usd,install,loss_avoided,savings_vs_no_action
+embedded,2113.68,600.0,0.816,2917.1
+retrofit,4117.07,1200.0,0.576,913.71
+no_action,5030.78,0.0,0.0,0.0
