@@ -1,0 +1,10 @@
+param_id,category,parameter,value,unit,scope,source_citation,source_doi,note
+p01,problem_scale,global_nrw_volume_daily,346,million_m3_per_day,global,"Liemberger & Wyatt (2019)",10.2166/ws.2018.129,"Global NRW volume"
+p03,problem_scale,global_nrw_cost_annual,39,billion_usd_per_year,global,"Liemberger & Wyatt (2019)",10.2166/ws.2018.129,"USD 0.31/m3"
+p06,insurance,water_damage_claim_avg,15400,usd_per_claim,us,"III (2024)",NA,"2019-2023 ISO/NAIC"
+p07,insurance,water_damage_claim_frequency,0.01667,ratio_per_year,us,"III (2024)",NA,"~1 in 60"
+p21,efficacy,shutoff_claim_frequency_reduction,96,percent,us,"LexisNexis (2020)",NA,"escape-of-water freq -96%"
+p22,efficacy,shutoff_claim_severity_reduction,72,percent,us,"LexisNexis (2020)",NA,"severity -72%"
+p27,cost_model,embedded_degradation_rate,5,percent_per_year,building,"Modelling assumption (no primary source)",NA,"Annual decay of un-serviceable embedded sensor coverage; primary object of break-even analysis"
+p28,cost_model,install_embedded_nominal,600,usd_per_unit,building,"Nominal design-stage install (modelling assumption)",NA,"Anchor for install cost"
+p29,cost_model,retrofit_multiplier,2.0,factor,building,"Access/labor premium proxy (p17-p20)",NA,"Retrofit install = embedded x this"
